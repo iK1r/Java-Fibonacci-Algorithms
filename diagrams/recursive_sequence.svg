@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 720" width="820" height="720">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="35" y="35" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="bold" fill="#21364c">Recursive Fibonacci — sequence diagram (n = 4)</text>
+<rect x="70" y="62" width="154" height="38" rx="6" fill="#e5eff8" stroke="#58718a"/>
+<rect x="485" y="62" width="240" height="38" rx="6" fill="#e5eff8" stroke="#58718a"/>
+<text x="110" y="87" font-family="DejaVu Sans" font-size="15" fill="#223">Caller</text>
+<text x="508" y="87" font-family="DejaVu Sans" font-size="14" fill="#223">com.example.fibonacci.FibonacciRecursive</text>
+<line x1="150" y1="100" x2="150" y2="685" stroke="#7c8795" stroke-dasharray="6 4"/>
+<line x1="600" y1="100" x2="600" y2="685" stroke="#7c8795" stroke-dasharray="6 4"/>
+<line x1="150" y1="125" x2="600" y2="125" stroke="#637486" /><polygon points="600,125 592,121 592,129" fill="#637486"/>
+<text x="375.0" y="119" text-anchor="middle" font-size="12" font-family="DejaVu Sans" fill="#263545">fibonacci(4)</text>
+<path d="M600 146 H685 V155 H600" fill="none" stroke="#637486" /><polygon points="600,155 607,151 607,159" fill="#637486"/>
+<text x="690" y="150" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(3)</text>
+<path d="M600 176 H705 V185 H600" fill="none" stroke="#637486" /><polygon points="600,185 607,181 607,189" fill="#637486"/>
+<text x="710" y="180" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(2)</text>
+<path d="M600 206 H725 V215 H600" fill="none" stroke="#637486" /><polygon points="600,215 607,211 607,219" fill="#637486"/>
+<text x="730" y="210" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(1)</text>
+<path d="M600 236 H725 V245 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,245 607,241 607,249" fill="#637486"/>
+<text x="730" y="240" font-family="DejaVu Sans" font-size="11" fill="#263545">return 1</text>
+<path d="M600 266 H725 V275 H600" fill="none" stroke="#637486" /><polygon points="600,275 607,271 607,279" fill="#637486"/>
+<text x="730" y="270" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(0)</text>
+<path d="M600 296 H725 V305 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,305 607,301 607,309" fill="#637486"/>
+<text x="730" y="300" font-family="DejaVu Sans" font-size="11" fill="#263545">return 0</text>
+<path d="M600 326 H705 V335 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,335 607,331 607,339" fill="#637486"/>
+<text x="710" y="330" font-family="DejaVu Sans" font-size="11" fill="#263545">return 1</text>
+<path d="M600 356 H705 V365 H600" fill="none" stroke="#637486" /><polygon points="600,365 607,361 607,369" fill="#637486"/>
+<text x="710" y="360" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(1)</text>
+<path d="M600 386 H705 V395 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,395 607,391 607,399" fill="#637486"/>
+<text x="710" y="390" font-family="DejaVu Sans" font-size="11" fill="#263545">return 1</text>
+<path d="M600 416 H685 V425 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,425 607,421 607,429" fill="#637486"/>
+<text x="690" y="420" font-family="DejaVu Sans" font-size="11" fill="#263545">return 2</text>
+<path d="M600 446 H685 V455 H600" fill="none" stroke="#637486" /><polygon points="600,455 607,451 607,459" fill="#637486"/>
+<text x="690" y="450" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(2)</text>
+<path d="M600 476 H705 V485 H600" fill="none" stroke="#637486" /><polygon points="600,485 607,481 607,489" fill="#637486"/>
+<text x="710" y="480" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(1)</text>
+<path d="M600 506 H705 V515 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,515 607,511 607,519" fill="#637486"/>
+<text x="710" y="510" font-family="DejaVu Sans" font-size="11" fill="#263545">return 1</text>
+<path d="M600 536 H705 V545 H600" fill="none" stroke="#637486" /><polygon points="600,545 607,541 607,549" fill="#637486"/>
+<text x="710" y="540" font-family="DejaVu Sans" font-size="11" fill="#263545">fibonacci(0)</text>
+<path d="M600 566 H705 V575 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,575 607,571 607,579" fill="#637486"/>
+<text x="710" y="570" font-family="DejaVu Sans" font-size="11" fill="#263545">return 0</text>
+<path d="M600 596 H685 V605 H600" fill="none" stroke="#637486" stroke-dasharray="6 4"/><polygon points="600,605 607,601 607,609" fill="#637486"/>
+<text x="690" y="600" font-family="DejaVu Sans" font-size="11" fill="#263545">return 1</text>
+<line x1="600" y1="635" x2="150" y2="635" stroke="#637486" stroke-dasharray="6 4"/><polygon points="150,635 158,631 158,639" fill="#637486"/>
+<text x="375.0" y="629" text-anchor="middle" font-size="12" font-family="DejaVu Sans" fill="#263545">return 3</text>
+</svg>

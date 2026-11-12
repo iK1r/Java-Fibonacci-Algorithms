@@ -1,0 +1,23 @@
+@startuml
+title Fibonacci with Memoization - UML Activity Diagram
+start
+:Validate n (0..92);
+:Create long[] memo of size n + 1;
+:Fill memo with -1;
+:Call calculate(n, memo);
+partition "calculate(k, memo)" {
+  if (k <= 1?) then (yes)
+    :Return k;
+    stop
+  endif
+  if (memo[k] != -1?) then (yes)
+    :Return memo[k];
+    stop
+  endif
+  :left = calculate(k - 1, memo);
+  :right = calculate(k - 2, memo);
+  :memo[k] = left + right;
+  :Return memo[k];
+}
+stop
+@enduml

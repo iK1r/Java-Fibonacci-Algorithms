@@ -1,0 +1,41 @@
+@startuml
+title Recursive Fibonacci - UML Sequence Diagram, n=4
+actor Caller
+participant "com.example.fibonacci.FibonacciRecursive" as F
+Caller -> F : fibonacci(4)
+activate F
+F -> F : fibonacci(3)
+activate F
+F -> F : fibonacci(2)
+activate F
+F -> F : fibonacci(1)
+activate F
+F --> F : 1
+deactivate F
+F -> F : fibonacci(0)
+activate F
+F --> F : 0
+deactivate F
+F --> F : 1
+deactivate F
+F -> F : fibonacci(1)
+activate F
+F --> F : 1
+deactivate F
+F --> F : 2
+deactivate F
+F -> F : fibonacci(2)
+activate F
+F -> F : fibonacci(1)
+activate F
+F --> F : 1
+deactivate F
+F -> F : fibonacci(0)
+activate F
+F --> F : 0
+deactivate F
+F --> F : 1
+deactivate F
+F --> Caller : 3
+deactivate F
+@enduml

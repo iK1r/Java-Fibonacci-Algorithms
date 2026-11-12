@@ -1,0 +1,20 @@
+@startuml
+title Iterative Fibonacci - UML Activity Diagram
+start
+:Validate n (0..92);
+if (n <= 1?) then (yes)
+  :Return n;
+  stop
+endif
+:previous = 0;
+:current = 1;
+:i = 2;
+while (i <= n?) is (yes)
+  :next = previous + current;
+  :previous = current;
+  :current = next;
+  :i = i + 1;
+endwhile (no)
+:Return current;
+stop
+@enduml
